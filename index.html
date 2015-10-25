@@ -50,7 +50,7 @@
 <!--Featured works-->
 		<div class="row">
 			<div class="col-md-4 col-xs-12 col-sm-6 text-center">
-				<picture>
+				<picture  data-toggle="modal" data-target="#project1">
 					<source media="(min-width:1200px)" srcset="images/appstore-250_large-1x.jpg 1x, images/appstore-500_large-2x.jpg 2x">
 					<source media="(min-width:992px)" srcset="images/appstore-200_medium-1x.jpg 1x, images/appstore-400_medium-2x.jpg 2x">
 					<source media="(min-width:766px)" srcset="images/appstore-250_large-1x.jpg 1x, images/appstore-500_large-2x.jpg 2x">
@@ -63,7 +63,7 @@
 			</div>
 
 			<div class="col-md-4 col-xs-12 col-sm-6 text-center">
-				<picture>
+				<picture  data-toggle="modal" data-target="#project2">
 					<source media="(min-width:1200px)" srcset="images/sunflower-250_large-1x.jpg 1x, images/sunflower-500_large-2x.jpg 2x">
 					<source media="(min-width:992px)" srcset="images/sunflower-200_medium-1x.jpg 1x, images/sunflower-400_medium-2x.jpg 2x">
 					<source media="(min-width:766px)" srcset="images/sunflower-250_large-1x.jpg 1x, images/sunflower-500_large-2x.jpg 2x">
@@ -76,7 +76,7 @@
 			</div>
 
 			<div class="col-md-4 col-xs-12 col-sm-6 text-center">
-				<picture>
+				<picture data-toggle="modal" data-target="#project3">
 					<source media="(min-width:1200px)" srcset="images/bokeh-250_large-1x.jpg 1x, images/bokeh-500_large-2x.jpg 2x">
 					<source media="(min-width:992px)" srcset="images/bokeh-200_medium-1x.jpg 1x, images/bokeh-400_medium-2x.jpg 2x">
 					<source media="(min-width:766px)" srcset="images/bokeh-250_large-1x.jpg 1x, images/bokeh-500_large-2x.jpg 2x">
@@ -88,11 +88,64 @@
 				<a href="#" class="dsktp">https://github.com/yanky2000/Udacity</a>
 			</div>
 		</div>
-
 	</main>
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel1">Appstore projects</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/appstore-400_medium-2x.jpg" alt="appstore">
+					<p>These are my appstore projects</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 2-->
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel2">Sunflower Projects</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/sunflower-400_medium-2x.jpg" alt="sunflower">
+					<p>These are my sunflower projects</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal 3-->
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel3">Design projects</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="images/bokeh-400_medium-2x.jpg" alt="bokeh">
+					<p>These are my design projects</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

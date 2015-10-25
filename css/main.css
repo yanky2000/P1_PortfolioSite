@@ -66,13 +66,13 @@ a {
 		font-size: 1.3em;
 	}
 
-	p,
 	h3 {
 		margin-top: 10px;
 	}
 
 	.picture-caption {
 		font-size: 1.1em;
+		margin-top: 10px;
 	}
 
 	hr {
